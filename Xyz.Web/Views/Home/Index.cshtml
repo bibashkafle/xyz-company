@@ -1,0 +1,71 @@
+﻿@model IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script>
+    $(document).ready(function () {
+        $('#example').DataTable({
+            data: @Html.Raw(Model.DataTable),
+            columns: @Html.Raw(Model.DataColumn),
+            paging: true,
+            searching: false,
+            ordering: false
+        });
+
+    });
+</script>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To XYZ Company</h1>
+
+    <div class="container">
+
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+        <table cellpadding="0" cellspacing="0">
+
+            <tr>
+                <td>Column Filter: </td>
+                <td>&nbsp;</td>
+                <td>
+                    @Html.DropDownListFor(m => m.ColumnFilter, new List<SelectListItem>
+                   { new SelectListItem{Text="Country", Value="Country"},
+                     new SelectListItem{Text="State", Value="State"},
+                     new SelectListItem { Text = "City", Value = "City" } }, "Please select")
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    Row Filter BY:
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    @Html.DropDownListFor(m => m.RowFilter, new List<SelectListItem>
+                   { new SelectListItem{Text="Year", Value="Year"},
+                     new SelectListItem{Text="Month", Value="Month"}
+                    }, "Please select")
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    @Html.TextBoxFor(x => x.RowFilterValue)
+                </td>
+                <td>&nbsp;</td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+            
+        </table>
+        }
+
+    </div>
+
+    <div class="container">
+        <table id="example" class="display" width="100%">
+            <thead>
+                
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</div>

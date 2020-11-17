@@ -1,0 +1,57 @@
+Country, State, City, Date, Qty
+USA, Illinois, Chicago, 2020/1/1, 100
+USA, Illinois, Naperville, 2020/1/2, 200
+USA, Illinois, Chicago, 2020/2/1, 101
+USA, Illinois, Naperville, 2020/2/2, 201
+USA, Illinois, Chicago, 2020/3/1, 101
+USA, Illinois, Naperville, 2020/3/20, 201
+USA, Illinois, Chicago, 2020/4/1, 101
+USA, Illinois, Naperville, 2020/5/20, 201
+USA, Georgia, Atlanta, 2020/1/1, 100
+USA, Georgia, Athens, 2020/1/2, 200
+USA, Georgia, Tifton, 2020/2/1, 101
+USA, Georgia, Fulton, 2020/2/2, 201
+USA, Georgia, Valdosta, 2020/3/1, 101
+USA, Georgia, Macon, 2020/3/20, 201
+USA, Georgia, Alpharetta, 2020/4/1, 101
+USA, Georgia, Helen, 2020/5/20, 201
+USA, New York, Chicago, 2020/1/1, 100
+USA, New York, Naperville, 2020/1/2, 200
+USA, New York, Chicago, 2020/2/1, 101
+USA, New York, Naperville, 2020/2/2, 201
+USA, New York, Chicago, 2020/3/1, 101
+USA, New York, Naperville, 2020/3/20, 201
+USA, New York, Chicago, 2020/4/1, 101
+USA, New York, Naperville, 2020/5/20, 201
+USA, California, Chicago, 2020/1/1, 100
+USA, California, Naperville, 2020/1/2, 200
+USA, California, Chicago, 2020/2/1, 101
+USA, California, Naperville, 2020/2/2, 201
+USA, California, Chicago, 2020/3/1, 101
+USA, California, Naperville, 2020/3/20, 201
+USA, California, Chicago, 2020/4/1, 101
+USA, California, Naperville, 2020/5/20, 201
+USA, Washington, ChiWAgo, 2020/1/1, 100
+USA, Washington, Naperville, 2020/1/2, 200
+USA, Washington, ChiWAgo, 2020/2/1, 101
+USA, Washington, Naperville, 2020/2/2, 201
+USA, Washington, ChiWAgo, 2020/3/1, 101
+USA, Washington, Naperville, 2020/3/20, 201
+USA, Washington, ChiWAgo, 2020/4/1, 101
+USA, Washington, Naperville, 2020/5/20, 201
+USA, Florida, ChiFLgo, 2020/1/1, 100
+USA, Florida, Naperville, 2020/1/2, 200
+USA, Florida, ChiFLgo, 2020/2/1, 101
+USA, Florida, Naperville, 2020/2/2, 201
+USA, Florida, ChiFLgo, 2020/3/1, 101
+USA, Florida, Naperville, 2020/3/20, 201
+USA, Florida, ChiFLgo, 2020/4/1, 101
+USA, Florida, Naperville, 2020/5/20, 201
+USA, Colorado, ChiCOgo, 2020/1/1, 100
+USA, Colorado, Naperville, 2020/1/2, 200
+USA, Colorado, ChiCOgo, 2020/2/1, 101
+USA, Colorado, Naperville, 2020/2/2, 201
+USA, Colorado, ChiCOgo, 2020/3/1, 101
+USA, Colorado, Naperville, 2020/3/20, 201
+USA, Colorado, ChiCOgo, 2020/4/1, 101
+USA, Colorado, Naperville, 2020/5/20, 201
